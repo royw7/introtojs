@@ -1,0 +1,37 @@
+<!DOCTYPE html> <!--Roy WU-->
+<html lang="en">
+<head>
+    <title>Add Subtract Multiply Divide</title>
+    <style></style>
+    <script>
+        function initialize()
+        {
+            messageOutput = document.getElementById("output");
+
+            message ="";
+
+
+        }
+        function addA() {
+            message += "A";
+            display();
+        }
+        function addCharacter(ch)
+        {
+            message += ch;
+            display();
+
+           
+        }
+    </script>
+</head>
+<body onload = "intialize();">
+    <div id = "output"></div>
+    <hr />
+    <button onclick = "addCharacter('0');">0</button>
+    <button onclick = "addCharacter('1');">1</button>
+    <button onclick = "addCharacter('2');">2</button>
+    <button onclick = "addCharacter('3');">3</button>
+    <button onclick = "addCharacter('4');">4</button>
+</body>
+</html>
